@@ -24,8 +24,11 @@ main{
 footer{
     width: 100%;
     height: 9vh;
-    background-color: #4a4a4a;
+    background-color: #222222;
     opacity: 0.85;
+    color: white;
+    display: flex;
+    justify-content: space-between;
 }
 
 .impostazioni{
@@ -58,4 +61,41 @@ footer{
     position: absolute;
     top: 65%;
     opacity: 0.8;
+}
+
+.flex{
+    display: flex;
+}
+
+.fa-microphone, .fa-video, .fa-user-plus, .fa-users, .fa-chart-line, .fa-share-from-square, .fa-comment, .fa-record-vinyl, .fa-microsoft, .fa-ellipsis{
+    font-size: 200%;
+}
+
+.fa-share-from-square{
+    color: green;
+}
+
+.center{
+    align-self: center;
+}
+
+.pad{
+    padding: 10px;
+}
+
+.icons{
+    margin-left: 15px;
+    text-align: center;
+}
+
+
+.endcall{
+    background-color: #4a4a4a;
+    align-self: center;
+    height: 9vh;
+}
+
+.endcall p{
+    color: red;
+    align-self: center;
 }
